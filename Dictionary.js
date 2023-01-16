@@ -40,7 +40,7 @@ btn.addEventListener("click", () => {
     .catch(() => {
       result.innerHTML = `<h2 class="error"> Couldn't find the word</h2>`;
     });
-  //   console.log(inpWord);
+ 
 });
 const playSound = () => {
   sound.play();
