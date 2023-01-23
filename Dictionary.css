@@ -95,4 +95,31 @@ width: 100%;
 border: 2px solid #575a7b;
 margin: 10px;
 }
- 
+use {
+    animation: move-forever 2s linear infinite;
+}
+use:nth-child(2) {
+    animation-duration: 2.5s;
+    animation-delay: -1.5s;
+}
+use:nth-child(1) {
+    animation-duration: 5s;
+}
+@keyframes move-forever {
+    0% {
+        transform: translate(-2px, 0);
+   }
+    100% {
+        transform: translate(0px, 0);
+   }
+}
+/* layout only*/
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #123;
+}
+svg {
+    width: 100vw;
+    height: 100vh;
+}
