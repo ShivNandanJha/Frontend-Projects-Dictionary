@@ -1,47 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dictionary App</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    />
-    <link rel="stylesheet" href="Dictionary.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DICTIONARY APP</title>
+</head>
+<body>
     <svg 
- viewBox="0 0 2 1" 
- preserveAspectRatio="none">
-  <defs>
-    <path id="w" 
-      d="
-      m0 1v-.5 
-      q.5.5 1 0
-      t1 0 1 0 1 0
-      v.5z" />
-  </defs>
-  <g>
-   <use href="#w" y=".0" fill="#2d55aa" />
-   <use href="#w" y=".1" fill="#3461c1" />
-   <use href="#w" y=".2" fill="#4579e2" />
-  </g>
- </svg>
-    <audio id="sound" src=""></audio>
-    <div class="container">
-      <div class="search-box">
-        <input
-          type="text"
-          placeholder="type the word here..."
-          id="input-word"
-        />
-        <button id="search-btn">Search</button>
-      </div>
-      <div class="result" id="result">
-        
-    </div>
-     <script src="Dictionary.js"></script>
-  </body>
+    viewBox="0 0 2 1" 
+    preserveAspectRatio="none">
+     <defs>
+       <path id="w" 
+         d="
+         m0 1v-.5 
+         q.5.5 1 0
+         t1 0 1 0 1 0
+         v.5z" />
+     </defs>
+     <g>
+      <use href="#w" y=".0" fill="#2d55aa" />
+      <use href="#w" y=".1" fill="#3461c1" />
+      <use href="#w" y=".2" fill="#4579e2" />
+     </g>
+    </svg>
+       <audio id="sound" src=""></audio>
+       <div class="container">
+         <div class="search-box">
+           <input
+             type="text"
+             placeholder="type the word here..."
+             id="input-word"
+           />
+           <button id="search-btn">Search</button>
+         </div>
+         <div class="result" id="result">
+           
+       </div>
+        <script src="Dictionary.js"></script>
+</body>
 </html>
